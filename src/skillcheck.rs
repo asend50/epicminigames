@@ -1,3 +1,9 @@
+/*
+By: <Asen Doiron>
+Date: 2026-06-05
+Program Details: <The purpose of this minigame is to make the user time their space bar presses when the bar is over the green box to earn points until they reach 25 points.>
+*/
+
 use macroquad::prelude::*;
 use crate::modules::preload_image::TextureManager;
 use crate::modules::label::Label;

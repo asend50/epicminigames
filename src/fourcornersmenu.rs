@@ -1,3 +1,9 @@
+/*
+By: <Asen Doiron>
+Date: 2026-06-05
+Program Details: <Menu for the four corners minigame.>
+*/
+
 use macroquad::prelude::*;
 use crate::modules::preload_image::TextureManager;
 use crate::modules::label::Label;

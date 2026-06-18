@@ -1,5 +1,10 @@
-use macroquad::prelude::*;
+/*
+By: <Asen Doiron>
+Date: 2026-06-05
+Program Details: <The purpose of this minigame is to make the user choose one of the four corners. If the corner they choose is also chosen by the program, they lose. If they choose a corner that isnt choosen by the program five times in a row they win.>
+*/
 
+use macroquad::prelude::*;
 use crate::modules::preload_image::TextureManager;
 use crate::modules::still_image::StillImage;
 use crate::modules::label::Label;

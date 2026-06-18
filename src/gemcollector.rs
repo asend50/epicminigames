@@ -1,3 +1,9 @@
+/*
+By: <Asen Doiron>
+Date: 2026-06-05
+Program Details: <The purpose of this minigame is to have the user collect all of the gems around the cave and bring them back to the minecart. Once they collect every one they beat the minigame.>
+*/
+
 use macroquad::prelude::*;
 use crate::modules::preload_image::TextureManager;
 use crate::modules::still_image::StillImage;

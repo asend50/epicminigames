@@ -1,3 +1,9 @@
+/*
+By: <Asen Doiron>
+Date: 2026-06-05
+Program Details: <The purpose of this minigame is to make the user click on a chicken 100 times to win the minigame.>
+*/
+
 use macroquad::prelude::*;
 use crate::modules::still_image::StillImage;
 use crate::modules::label::Label;

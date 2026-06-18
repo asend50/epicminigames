@@ -1,7 +1,7 @@
 /*
 By: <Asen Doiron>
 Date: 2026-06-05
-Program Details: <Program Description Here>
+Program Details: <The purpose of this program is to allow the user to play 4 different minigames and complete them to collect different items. Once they beat every minigame and collect all 4 items they beat the program and recieve the final trophy.>
 */
 
 mod modules;

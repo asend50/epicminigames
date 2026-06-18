@@ -1,3 +1,9 @@
+/*
+By: <Asen Doiron>
+Date: 2026-06-05
+Program Details: <Main menu screen for the game.>
+*/
+
 use macroquad::prelude::*;
 use crate::modules::still_image::StillImage;
 use crate::modules::label::Label;
