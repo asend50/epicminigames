@@ -26,6 +26,17 @@ let bordercolorred = Color::from_hex(0xE04A4A);
         "assets/pixelarrowhover.png",  // hover state image
     ).await;
 
+    let mut img_skillcheckbackground = StillImage::new(
+        "",
+        1300.0,  // width
+        1300.0,  // height
+        0.0,  // x position
+        0.0,   // y position
+        true,   // Enable stretching
+        1.0,    // Normal zoom (100%)
+    ).await;
+    img_skillcheckbackground.set_preload(tm.get_preload("assets/skillcheckbackground.png").unwrap());
+
     let mut img_bar = StillImage::new(
         "",
         700.0,  // width
@@ -71,7 +82,7 @@ let bordercolorred = Color::from_hex(0xE04A4A);
         true,   // Enable stretching
         1.0,    // Normal zoom (100%)
     ).await;
-    img_redbackground.set_preload(tm.get_preload("assets/redbackground.png").unwrap());
+    img_redbackground.set_preload(tm.get_preload("assets/skillcheckbackgroundred.png").unwrap());
     let mut redbackground = img_redbackground;
 
     let mut lbl_skillcheckpoints = Label::new("Points: 0", 400.0, 535.0, 80);
@@ -85,6 +96,8 @@ let bordercolorred = Color::from_hex(0xE04A4A);
 
     loop {
         clear_background(backgroundcolor);
+
+        img_skillcheckbackground.draw();
         redbackground.draw();
         bar.draw();
         greenbar.draw();
